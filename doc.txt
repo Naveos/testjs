@@ -1,0 +1,7 @@
+document.getElementById("tonId");
+
+a mettre dans la page js pour recuperer un element via son id
+
+<script src=""></script>
+
+a mettre en fin de page web pour lier la page js a la page html

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="body">
+    <script src="js/script.js"></script>
+    <div id="header">
+        <br>
+        Test de JavaScript
+        <br>
+        <br>
+    </div>
+    <br>
+    <div id="text">
+        <br>
+        <button onclick="changeTheme()">Theme</button>
+        <br>
+        <br>
+        <form action="">
+            <label for="fname">Prénom</label>
+            <input type="text" id="fname" name="firstname" placeholder="Ton prénom...">
+        
+            <label for="lname">Nom de famille</label>
+            <input type="text" id="lname" name="lastname" placeholder="Ton nom de famille...">
+        
+            <label for="Continent">Continent</label>
+            <select id="continent" name="continent">
+              <option value="Europe">Europe</option>
+              <option value="Amerique du Nord">Amerique du Nord</option>
+              <option value="Amerique du Sud">Amerique du Sud</option>
+              <option value="Asie Mineure">Asie Mineure</option>
+              <option value="Asie Majeure">Asie Majeure</option>
+              <option value="Afrique">Afrique</option>
+            </select>
+          
+            <input type="submit" onclick="submitBtn()" value="Submit">
+          </form>
+          <br>
+          <div id="reponse"></div>
+    </div>
+</body>
+</html>
